@@ -1,2 +1,5 @@
-let charc = String.fromCharCode(72, 69, 76, 76, 79);
-console.log(charc)
+//Una nueva cadena que contiene las cadenas combinadas.
+let text1 = "valle";
+let text2 = "nato";
+let result = text1.concat(text2);
+console.log(result)
