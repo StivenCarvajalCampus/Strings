@@ -1,6 +1,10 @@
-let text = "Vallenato ";
-let text2 = "vallenato mas que musica un sentimiento hecho cancion";
-//El trim()método elimina los espacios en blanco de ambos lados de una cadena.
+//El método .raw() en JavaScript se utiliza para crear un objeto de plantilla de etiquetas crudas (raw template tag). Este objeto es utilizado para acceder al contenido sin procesar de una plantilla de etiqueta de plantilla (template literal).
 
-let result = text.replace(/^\s+|\s+$/gm,'');
-console.log(result)
+const message = `Hola \nMundo`;
+
+console.log(message); // Salida: Hola 
+                       //         Mundo
+
+const rawMessage = String.raw`Hola \nMundo`;
+
+console.log(rawMessage); // Salida: Hola \nMundo
