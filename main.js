@@ -1,6 +1,5 @@
 let text = "Vallenato ";
-let text2 = "Vallenato mas que musica un sentimiento hecho cancion";
-/*El split()método no cambia la cadena original.
-Si (" ") se usa como separador, la cadena se divide entre palabras.*/
-const myArray = text2.split(" ");
-console.log(myArray)
+let text2 = "VALLENATO mas que musica un sentimiento hecho cancion";
+/*El toLowerCase()método convierte una cadena en letras minúsculas.El toLowerCase()método convierte una cadena en letras minúsculas.*/
+let result = text2.toLowerCase();
+console.log(result)
