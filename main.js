@@ -1,4 +1,4 @@
-//El método lastIndexOf() en JavaScript devuelve el índice de la última ocurrencia de un carácter o una subcadena de caracteres dentro de una cadena. La búsqueda se realiza desde el final de la cadena hacia el principio.
+//search() busca un valor en una cadena y devuelve la posición de la primera coincidencia:
 let textindex = "Vallenato mas que musica un sentimiento hecho cancion ";
-let result = textindex.lastIndexOf("mas");
-console.log(result)
+let position = textindex.search("musica");
+console.log(position)
