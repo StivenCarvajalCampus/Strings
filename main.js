@@ -1,4 +1,5 @@
-//search() busca un valor en una cadena y devuelve la posición de la primera coincidencia:
-let textindex = "Vallenato mas que musica un sentimiento hecho cancion ";
-let position = textindex.search("musica");
-console.log(position)
+//El localeCompare()método devuelve el orden de clasificación -1, 1 o 0 (para antes, después o igual).
+let text1 = "cd";
+let text2 = "ab";
+let result = text1.localeCompare(text2);
+console.log(result)
